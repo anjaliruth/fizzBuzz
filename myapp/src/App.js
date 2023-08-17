@@ -10,10 +10,21 @@ function App() {
     setUser(details);
   }
 
+  function handleLogout() {
+    setUser(null);
+  }
+
   return (
     <div className="FizzBuzzList">
       <h1 className="title">FizzBuzz List for BlckBx</h1>
-      {user ? <FizzBuzz /> : <Authentication validUser={validUser} />}
+      {user ? (
+        <div>
+        <button onClick={handleLogout}>Logout</button>
+          <FizzBuzz />
+        </div>
+      ) : (
+        <Authentication validUser={validUser} />
+      )}
     </div>
   );
 }
