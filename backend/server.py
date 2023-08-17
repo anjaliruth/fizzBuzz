@@ -25,7 +25,7 @@ def sort_outcome(n):
 
 @app.route('/fizzbuzz')
 def generate_numbers():
-    result = [sort_outcome(n) for n in range(1, 101)]
+    result = [n for n in range(1, 101)]
 # return the result as a json object
     return jsonify(result)
 
