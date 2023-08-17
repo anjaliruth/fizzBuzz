@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // Move the dummyDataUsers outside of the component function
-const dummyDataUsers = [{ email: "123@test.com", password: "password1" }];
+const dummyDataUsers = [{ email: "123@test.com", password: "123" }];
 
 export default function Authentication({ validUser }) {
   // create states for username and password
