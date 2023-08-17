@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 import FizzBuzz from './components/FizzBuzz/FizzBuzz';
 
 function App() {
   return (
-    <div className="App">
+    <div className="FizzBuzzList">
+         <h1 className='title'>FizzBuzz List for BlckBx</h1>
       <FizzBuzz/>
     </div>
   );
