@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // Move the dummyDataUsers outside of the component function
-const dummyDataUsers = [{ email: "123@test.com", password: "123" }];
+const dummyDataUsers = [{ email: "test@gmail.com", password: "fizzbuzz" }];
 
 export default function Authentication({ validUser }) {
   // create states for username and password
@@ -29,7 +29,8 @@ export default function Authentication({ validUser }) {
       {isAuthenticated ? (
         <p>Welcome!</p>
       ) : (
-        <div>
+        <div className="loginInput">
+        <p>Please enter your details to view the magic of <span className="fizzbuzz">FizzBuzz</span></p>
           <input
             type="email"
             value={email}
@@ -42,7 +43,12 @@ export default function Authentication({ validUser }) {
             placeholder="Password"
             onChange={(e) => setPassword(e.target.value)}
           />
+
           <button onClick={handleLogin}>Login</button>
+          <div className="loginDetails">
+            <p>Demo Email: test@gmail.com</p>
+            <p>Password: fizzbuzz</p>
+          </div>
         </div>
       )}
     </div>
