@@ -21,3 +21,15 @@ def sort_outcome(n):
         return "Fizz"
     else:
         return n
+    
+
+@app.route('/fizzbuzz')
+def generate_numbers():
+    result = [sort_outcome(n) for n in range(1, 101)]
+# return the result as a json object
+    return jsonify(result)
+
+# run the app
+
+if __name__ == '__main__':
+    app.run(debug=True)
