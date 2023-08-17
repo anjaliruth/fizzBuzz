@@ -20,3 +20,12 @@
 4. Make request to backend
 5. Store response in state
 6. Render response (requires map since we are returning an array)
+
+## Authentication (USING TERNARY OPERATOR TO CONDITIONALLY RENDER)
+1. Create login page
+- Create login form
+- Create login function
+2. Create register page
+3. Create logout page
+
+
