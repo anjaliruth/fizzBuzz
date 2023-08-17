@@ -23,7 +23,12 @@ export default function FizzBuzz() {
   
   return (
     <div>
-
+         <div className='results'>
+    {/* map over the data that has come in from the API */}
+        {fizzBuzzData.map((item, index) => (
+          <p key={index}>{item}</p>
+        ))}
+      </div>
     </div>
   )
 }
