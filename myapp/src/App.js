@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="FizzBuzzList">
-      <h1 className="title">FizzBuzz List for BlckBx</h1>
+      <h1 className="title">FizzBuzz List</h1>
       {/* Use ternary operator to render conditionally based on user authentiation */}
       {user ? (
   <div>
