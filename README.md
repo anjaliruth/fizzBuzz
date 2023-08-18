@@ -10,10 +10,11 @@ Type this into your terminal:
 
 ### Running Backend
   - Navigate to backend folder
+ <br>
   Type this into the terminal:
 **cd fizzbuzz/backend**
 
-Since this is a small app, we will skip creating a virtual envirnoment (it functions to isolate the project's dependencies from the system-wide Python environment)
+Since this is a small app, we will skip creating a virtual environment (it functions to isolate the project's dependencies from the system-wide Python environment)
 
 Then if you are on a Mac:
 
@@ -43,6 +44,7 @@ Type this into the terminal:
 
 ### Running Frontend
    - Navigate to frontend folder
+      <br>
     On a new terminal window, type this into the terminal:
 **cd fizzbuzz/myapp**
 
