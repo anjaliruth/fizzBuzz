@@ -1,59 +1,79 @@
 # FizzBuzz
 
-## Running on your local machine
+## Running on Your Local Machine
 
-Clone this repository on your local machine
-Repo link: https://github.com/anjaliruth/fizzBuzz.git
+To run the FizzBuzz application on your local machine, follow these steps:
 
-Type this into your terminal:
-**git clone https://github.com/anjaliruth/fizzBuzz.git**
+### 1. Clone the Repository
 
-### Running Backend
-  - Navigate to backend folder
- <br>
-  Type this into the terminal:
-<br>
-**cd fizzbuzz/backend**
+Clone this repository to your local machine using the following command:
 
-Since this is a small app, we will skip creating a virtual environment (it functions to isolate the project's dependencies from the system-wide Python environment)
+```bash
+git clone https://github.com/anjaliruth/fizzBuzz.git
+```
 
-Then if you are on a Mac:
+### 2. Running the Backend
 
-To install flask (to be able to run the backend): 
-Type this into the terminal:
+#### a. Navigate to the Backend Folder
 
-**pip3 install flask**
+Open your terminal and navigate to the backend folder within the cloned repository:
 
-Then you are ready to run the backend
-Type this into the terminal:
+```bash
+cd fizzbuzz/backend
+```
 
-**python3 server.py**
+#### b. Install Flask (Mac)
 
+If you're on a Mac, install Flask by entering the following command:
 
-If you are running on Windows:
+```bash
+pip3 install flask
+```
 
-To install flask: 
-Type this into the terminal:
+#### b. Install Flask (Windows)
 
-**pip install flask**
+If you're on Windows, install Flask using this command:
 
+```bash
+pip install flask
+```
 
-Then you are ready to run the backend
-Type this into the terminal:
-**python server.py**
+#### c. Run the Backend
 
+After installing Flask, you're ready to run the backend server. Use the following command:
 
-### Running Frontend
-   - Navigate to frontend folder
-      <br>
-    On a new terminal window, type this into the terminal:
-<br>
-**cd fizzbuzz/myapp**
+```bash
+python3 server.py  # On Mac
+# or
+python server.py   # On Windows
+```
 
-- Install dependencies
-Type this into the terminal:
-**npm install**
+### 3. Running the Frontend
 
-- Run the app
-Type this into the terminal:
-**npm run start**
+#### a. Navigate to the Frontend Folder
+
+Open a new terminal window and navigate to the frontend folder within the repository:
+
+```bash
+cd fizzbuzz/myapp
+```
+
+#### b. Install Dependencies
+
+Install the required dependencies for the frontend using the following command:
+
+```bash
+npm install
+```
+
+#### c. Run the Frontend
+
+After installing the dependencies, start the frontend application:
+
+```bash
+npm run start
+```
+
+This will launch the FizzBuzz application in your default web browser.
+
+By following these steps, you will be able to run both the backend and frontend components of the FizzBuzz application locally on your machine.
