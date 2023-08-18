@@ -8,7 +8,7 @@ export default function FizzBuzz() {
   // this 'time' mentioned above will be after the component mounts, and will only render after the component is mounted. (Done so by a second argument of [] in this useEffect hook. )
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("http://127.0.0.1:5000/fizzbuzz");
+      const response = await fetch("http://127.0.0.1:5001/fizzbuzz");
       const data = await response.json();
       // Store incoming data from the backend in a state
       setFizzBuzzData(data);

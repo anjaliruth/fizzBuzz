@@ -24,12 +24,12 @@ export default function Authentication({ validUser }) {
 
   return (
     <div>
-      {/* use a ternary operator to check if the correct credentials have been added */}
-      {/* If not, show login input fields; if yes, say Welcome! */}
+      {/* use a ternary operator to check if the user is authenticated*/}
       {isAuthenticated ? (
         <p>Welcome!</p>
       ) : (
         <div className="loginInput">
+        {/* display,login form for non-authenticated users */}
         <p>Please enter your details to view the magic of <span className="fizzbuzz">FizzBuzz</span></p>
           <input
             type="email"
@@ -43,7 +43,7 @@ export default function Authentication({ validUser }) {
             placeholder="Password"
             onChange={(e) => setPassword(e.target.value)}
           />
-
+{/* call the handleLogin function here to check the login credentials*/}
           <button onClick={handleLogin}>Login</button>
           <div className="loginDetails">
             <p>Demo Email: test@gmail.com</p>
