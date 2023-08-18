@@ -12,6 +12,7 @@ Type this into your terminal:
   - Navigate to backend folder
  <br>
   Type this into the terminal:
+<br>
 **cd fizzbuzz/backend**
 
 Since this is a small app, we will skip creating a virtual environment (it functions to isolate the project's dependencies from the system-wide Python environment)
@@ -46,6 +47,7 @@ Type this into the terminal:
    - Navigate to frontend folder
       <br>
     On a new terminal window, type this into the terminal:
+<br>
 **cd fizzbuzz/myapp**
 
 - Install dependencies
