@@ -19,7 +19,7 @@ git clone https://github.com/anjaliruth/fizzBuzz.git
 Open your terminal and navigate to the backend folder within the cloned repository:
 
 ```bash
-cd fizzbuzz/backend
+cd fizzbuzz/backend/
 ```
 
 #### b. Install Flask (Mac)
@@ -55,7 +55,7 @@ python server.py   # On Windows
 Open a new terminal window and navigate to the frontend folder within the repository:
 
 ```bash
-cd fizzbuzz/myapp
+cd fizzbuzz/myapp/
 ```
 
 #### b. Install Dependencies
