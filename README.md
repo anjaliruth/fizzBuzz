@@ -81,3 +81,4 @@ This will launch the FizzBuzz application in your default web browser.
 
 By following these steps, you will be able to run both the backend and frontend components of the FizzBuzz application locally on your machine.
 >>>>>>> cda25b9b23c01758f4747287e04a41fe121b86d9
+# hashMapPractice
